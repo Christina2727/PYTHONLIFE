@@ -1,3 +1,6 @@
+#Christina Roberts
+#How to Code 2.0
+
 from turtle import*
 from random import randint
 

@@ -1,3 +1,5 @@
+#Christina Roberts
+#How to code 2.0
 from turtle import*
 
 speed(0)

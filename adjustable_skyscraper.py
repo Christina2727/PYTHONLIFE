@@ -1,3 +1,6 @@
+#Christina Robert
+#How to Code 2.0
+
 from tkinter import*
 def new_skyscraper():
     win_w = scale_win_w.get()

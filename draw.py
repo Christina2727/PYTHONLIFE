@@ -1,3 +1,6 @@
+#Christina Roberts
+#How to Code 2.0
+
 from tkinter import*
 my_pen = "up"
 my_x, my_y = None, None
@@ -29,6 +32,7 @@ def motion(event):
         my_x = event.x
         my_y = event.y
 
-
+print("Use cursor to draw in field provided please.")
     
-main()            
+main()
+

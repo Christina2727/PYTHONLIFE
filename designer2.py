@@ -1,3 +1,6 @@
+#Christina Roberts
+#How to Code 2.0
+
 from turtle import*
 from random import randint
 
@@ -19,35 +22,35 @@ def choose_color():
 
     print("Color is: ", r, g, b)
 
-def draw_square(size):
+def draw_square():
     designer.begin_fill()
-    designer.pendown()
+    designer.pendown()                                                      
     for i in range(4):
-        designer.forward(size)
+        designer.forward(30)                                                                   
         designer.right(90)
     designer.penup()
     designer.end_fill()
 
     print("Sqaure Drawn")
 
-def draw_one_row(number, size):
-    for i in range(number):
+def draw_one_row():
+    for i in range(10):
         choose_color()
-        draw_square(size)
-        designer.forward(size)
+        draw_square()
+        designer.forward(50)
 
-def draw_pattern(number,size):
-    for i in range(number):
-        draw_one_row(number,size)
-        designer.backward(size*number)
+def draw_pattern():
+    for i in range(10):
+        draw_one_row()
+        designer.backward(500)
         designer.right(90)
-        designer.forward(size)
+        designer.forward(50)
         designer.left(90)
 
-draw_pattern(10,25)
+draw_pattern()
+                     
 
+                                                        
 
-    
-
-
+                        
         

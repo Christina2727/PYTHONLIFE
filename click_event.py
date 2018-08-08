@@ -1,3 +1,7 @@
+#Christina Roberts
+#How to Code 2.0
+
+
 from tkinter import*
 
 print("Please left click anywhere on the canvas. Thank you.")

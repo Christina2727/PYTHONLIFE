@@ -1,3 +1,6 @@
+#Christina Roberts
+#How to Code 2.0
+
 from tkinter import*
 
 print("Please click the 'Draw Skyscraper' button at bottom of canvas")

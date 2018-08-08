@@ -1,4 +1,5 @@
-
+#Christina Roberts
+#How to Code 2.0
 
 from turtle import*
 #i tried import turtle and it gave me error for color not being
